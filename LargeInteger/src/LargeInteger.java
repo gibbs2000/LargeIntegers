@@ -60,8 +60,24 @@ public class LargeInteger {
 
 		}
 		int[] sum = add(a, b);
-		
+
 		System.out.print("The sum of ");
-		for(int i)
+		for (int i = 0; i < N; i++) {
+			if (a[i] != 0)
+				System.out.print(a[i]);
+		}
+		System.out.print(" and ");
+		for (int i = 0; i < N; i++) {
+			if (a[i] != 0)
+				System.out.print(b[i]);
+		}
+		
+		System.out.print(" is ");
+		
+		
+		for (int i = 0; i < N; i++) {
+			if (sum[i] != 0)
+				System.out.print(b[i]);
+		}
 	}
 }
